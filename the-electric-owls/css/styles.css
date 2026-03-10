@@ -157,7 +157,67 @@ footer {
 }
 
 /* ***************** Add media query for the 588px screen ***************** */
+@media (min-width: 588px) 
+{
+
+    header .container
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container nav ul
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 2.75rem;
+    }
+
+    .container form input
+    {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    form input[id="email"] 
+    {
+    width: 60%;
+    }
+
+    form .btn 
+    {
+    width: 30%;
+    }
+
+}
 
 /* ***************** footer ***************** */
+@media (min-width: 980px)
+{
+    footer
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 
 /* ***************** footer ***************** */
+@media (min-width: 1920px)
+{
+    .container
+    {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+     footer
+    {
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
